@@ -1,0 +1,8 @@
+NDFA -- Non- Determinitistic Finite Automata
+
+What is NDFA / NFA?
+  NDFA (Non-Deterministic Finite Automaton) is a finite automaton where:
+      For the same input symbol, multiple transitions may exist
+      ε (epsilon) transitions are allowed (move without reading input)
+  Unlike DFA, the machine can be in multiple states at the same time.
+
