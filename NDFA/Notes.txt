@@ -6,3 +6,13 @@ What is NDFA / NFA?
       ε (epsilon) transitions are allowed (move without reading input)
   Unlike DFA, the machine can be in multiple states at the same time.
 
+
+Why Convert NFA to DFA?
+
+An NFA can have:
+        Multiple transitions for same input
+        ε (epsilon) transitions
+
+A DFA must have:
+      Exactly one transition for each input symbol from each state
+      No ε transitions
