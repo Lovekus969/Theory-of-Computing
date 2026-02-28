@@ -1,0 +1,11 @@
+What is a Regular Expression?
+  A Regular Expression (RE) is a way to describe a Regular Language.
+And we already know:
+  Regular Expression ⇔ NFA ⇔ DFA
+  All three are equivalent in power.
+A regular Expression will accept those values. 
+| Symbol | Meaning      | Language |
+| ------ | ------------ | -------- |
+| ε      | Empty string | {ε}      |
+| ∅      | Empty set    | {}       |
+| a      | Symbol a     | {a}      |
