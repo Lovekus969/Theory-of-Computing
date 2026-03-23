@@ -16,3 +16,14 @@ An NFA can have:
 A DFA must have:
       Exactly one transition for each input symbol from each state
       No ε transitions
+
+
+What is CFA (Control Flow Automaton)?
+
+A Control Flow Automaton (CFA) is a graph-based model used to represent how a program executes step by step.
+
+👉 It shows:
+
+How control moves in a program
+Which statement runs after which
+All possible execution paths
