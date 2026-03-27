@@ -9,3 +9,6 @@ A regular Expression will accept those values.
 | ε      | Empty string | {ε}      |
 | ∅      | Empty set    | {}       |
 | a      | Symbol a     | {a}      |
+
+Regular Expression to NFA 
+Comes in exam 
