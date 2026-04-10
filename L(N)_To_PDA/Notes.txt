@@ -1,0 +1,51 @@
+What is PDA (Pushdown Automaton)?
+
+A Pushdown Automaton (PDA) is an advanced version of a finite automaton (FA) that uses a stack.
+  In simple words:
+        Finite Automata (FA) → has only states (no memory)
+        Pushdown Automata (PDA) → has states + a stack (memory)                           |[]| Inside Box is $ sign which repersent Stack | $ |
+Components of PDA
+
+A PDA is defined as:
+
+    (Q, Σ, Γ, δ, q₀, Z₀, F)
+    
+    Let’s simplify:
+    
+                  Q → Set of states
+                  Σ (Sigma) → Input symbols (like a, b,c )
+                  Γ (Gamma) → Stack symbols 
+                  δ (delta) → Transition function
+                  q₀ → Start state
+                  Z₀ → Initial stack symbol
+                  F → Final states
+Side by side, let's see how the stack behaves. How PDA Works (Core Idea)
+
+The stack is the key:
+  Operations:     
+            Push → add to stack
+            Pop → remove from stack
+            No operation
+
+Let's see how Transition funciton beheave here in the push down automata as we know it depict the information of moving one state to another Transition Function in PDA
+
+In a Finite Automaton (FA):
+                                  δ(q, a) → q'
+
+ Only depends on:
+                          current state
+                          input symbol
+
+However, in PDA, it’s more powerful:
+                                      δ(q, a, X) → (p, γ)
+
+ It depends on:
+
+                    q → current state
+                    a → input symbol (or ε)
+                    X → top of stack
+
+ And it does:
+
+                    go to new state p
+                    replace X with γ (push/pop)
